@@ -9,6 +9,8 @@
 :root {
     --body-bg-color: #FAF7FD;
     --purple: #BB99DD;
+    --body-bg-dark: #0e055f;
+    --color-dark:#fff;
 }
 
 body{
@@ -16,7 +18,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: var(--body-bg-color);
+    background-color: var(--body-bg-dark);
 }
 
 .header-conteiner{
@@ -39,7 +41,7 @@ body{
 }
 
 .borda{
-    border: 2px solid var(--purple);
+    border: 2px solid var(--color-dark);
     border-radius: 50%;
     padding: 6px;
     margin-bottom: 7.5px;
@@ -49,31 +51,41 @@ body{
     margin-top: 7.5px;
     text-decoration: none;
     text-align: center;
-    color: var(--purple);
+    color: var(--color-dark);
     margin-bottom: 16.5px;
 }
 
 .corpor_projetos{
-    margin-bottom: 34px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 16px;
 }
 
-
 .projeitos_links{
-    border: 2px solid var(--purple);
+    border: 2px solid var(--color-dark);
     text-align: center;
     border-radius: 4px;
-    color: var(--purple);
+    color: var(--color-dark);
 }   
 
 .projeitos_links a{
     text-decoration: none;
-    color: var(--purple);
+    color: var(--color-dark);
 }
 
 .projeitos_links a:visited{
-    color: var(--purple);
+    color: var(--color-dark);
+}
+
+.links_sociais{
+    margin-top: 68px;
+}
+
+.links_sociais .img_links{
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
 }
