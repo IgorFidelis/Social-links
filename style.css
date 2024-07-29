@@ -67,6 +67,7 @@ body{
     text-align: center;
     border-radius: 4px;
     color: var(--color-dark);
+    padding: 0px 10px;
 }   
 
 .projeitos_links a{
